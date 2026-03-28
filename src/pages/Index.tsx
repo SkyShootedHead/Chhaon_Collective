@@ -35,7 +35,7 @@ const Index = () => {
           className="absolute inset-0 w-full h-full object-cover"
         />
         <div className="absolute inset-0 bg-background/40" />
-        <div className="relative z-10 flex items-center justify-between h-full px-6 md:px-10">
+        <div className="relative z-10 flex items-center justify-between h-full px-6 md:px-10 flex-wrap">
           <motion.span
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}

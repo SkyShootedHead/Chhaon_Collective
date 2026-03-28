@@ -38,6 +38,9 @@ const InfoOverlay = ({ isOpen, onClose }: InfoOverlayProps) => {
               Every project undertaken is a sensitive and relevant response to the uniqueness of the 
               individual site context, culture and people.
             </p>
+            <p className="font-mono-body text-sm md:text-base leading-relaxed text-muted-foreground mb-4 font-bold">
+               Swapnil Agrawal | Yash Korat
+            </p>
             <div className="flex gap-8 font-mono-body text-xs text-muted-foreground tracking-widest uppercase mb-4">
               <span>Goa</span>
               <span>Agra</span>
@@ -45,7 +48,7 @@ const InfoOverlay = ({ isOpen, onClose }: InfoOverlayProps) => {
             </div>
             <a
               href="mailto:chhaon.collective@gmail.com"
-              className="font-mono-body text-xs text-muted-foreground tracking-widest hover:text-primary transition-colors"
+              className="font-mono-body text-xs text-muted-foreground tracking-widest hover:text-primary transition-colors block"
             >
               chhaon.collective@gmail.com
             </a>
